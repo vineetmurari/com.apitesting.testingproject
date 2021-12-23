@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ 
+ <parameter name="ENV" value="QA"></parameter>
+  <parameter name="Param" value="Some"></parameter>
+ 
+ 
+  <test name="Test1">
+    <classes>
+      <class name="com.APIRestAssuredauto.Test.RestAssuredTest1"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Test2">
+    <classes>
+       <class name="com.APIRestAssuredauto.Test.RestAssuredauth"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+</suite> <!-- Suite -->

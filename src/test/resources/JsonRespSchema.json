@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Item1": {
+      "type": "string"
+    },
+    "Item2": {
+      "type": "string"
+    },
+    "Item3": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "Item1",
+    "Item2",
+    "Item3"
+  ]
+}

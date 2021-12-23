@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test1">
+    <classes>
+      <class name="com.APIRestAssuredauto.Test.RestAssuredTest1"/>
+    </classes>
+  </test> <!-- Test1 -->
+  <test name="Test2">
+    <classes>
+      <class name="com.APIRestAssuredauto.Test.RestAssuredauth"/>
+    </classes>
+  </test> <!-- Test2 -->
+  <test name="Test1(failed)">
+    <classes>
+      <class name="com.APIRestAssuredauto.Test.RestAssuredTest1">
+        <methods>
+          <include name="f" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.APIRestAssuredauto.Test.RestAssuredTest1 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
